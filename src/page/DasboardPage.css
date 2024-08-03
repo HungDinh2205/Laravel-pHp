@@ -1,0 +1,19 @@
+.layout-background{
+    background-color: #fff !important;
+}
+
+.ant-layout{
+    min-height: 1000vh;
+}
+
+.ant-layout-header span.trigger svg{
+    width: 25px !important;
+    height: 25px !important;
+    margin: 10px !important;
+}
+
+
+
+.hidden{
+    display: none;
+}

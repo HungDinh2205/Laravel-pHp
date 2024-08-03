@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+.hero-header {
+    width: 100%;
+    background-color: #000; /* Màu nền của header, bạn có thể thay đổi theo ý muốn */
+    padding: 10px 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 20px; 
+    font-size: 40px;/* Khoảng cách từ logo đến cạnh trái */
+}
+
+.logo ion-icon{
+    font-size: 2em; /* Kích thước của biểu tượng ion-icon */
+    vertical-align: middle;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 10px; /* Khoảng cách giữa các mục menu */
+}
+
+.navbar a {
+    display: inline-block; /* Hiển thị các mục menu là inline-block để chúng nằm trên cùng một dòng */
+    padding: 10px; /* Khoảng cách nội bộ của các mục menu */
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.fa-shopping-bag {
+    font-size: 40px; /* hoặc bất kỳ kích thước nào bạn muốn */
+    margin-right: 5px;
+}
+
+.fa-shopping-bag::before {
+    font-family: "FontAwesome";
+}
+
+.navbar a sup {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin-left: 2px;
+}

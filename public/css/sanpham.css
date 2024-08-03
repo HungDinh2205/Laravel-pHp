@@ -1,0 +1,127 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    /* Set default text color to dark gray */
+    font-family: Arial, sans-serif;
+    /* Use a common font for better compatibility */
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #000000;
+    /* Màu nền cho thanh điều hướng */
+}
+
+.navbar-nav {
+    list-style: none;
+    /* Loại bỏ dấu chấm tròn mặc định của danh sách */
+    margin: 0;
+    /* Xóa các margin mặc định */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+    /* Khoảng cách giữa các mục */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    /* Màu văn bản trắng */
+    transition: color 0.3s;
+    /* Hiệu ứng chuyển đổi màu khi hover */
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+    /* Màu văn bản trắng khi hover */
+}
+
+.custom-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.styled-table {
+width: 100%;
+border-collapse: collapse;
+font-size: 18px;
+text-align: left;
+margin: 25px 0;
+}
+
+.styled-table thead tr {
+background-color: black;
+color: #ffffff;
+text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+padding: 12px 15px;
+border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+font-weight: bold;
+color: #009879;
+}
+
+.styled-table img {
+max-width: 100px;
+height: auto;
+}
+
+.btn {
+padding: 5px 10px;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+.btn-primary, .btn-danger {
+background-color: black;
+color: white;
+}

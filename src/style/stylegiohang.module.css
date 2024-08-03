@@ -1,0 +1,26 @@
+/* Styles for the custom input group buttons and input */
+.custom-button {
+    background-color: #007bff; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    font-size: 18px; /* Kích cỡ chữ */
+    padding: 10px 20px; /* Kích thước nút */
+    border: 1px solid #007bff; /* Màu viền */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+    border-color: #0056b3; /* Màu viền khi hover */
+}
+
+.custom-input {
+    text-align: center;
+    font-size: 18px; /* Kích cỡ chữ */
+    padding: 10px; /* Kích thước ô nhập liệu */
+    border: 1px solid #007bff; /* Màu viền */
+}
+
+.custom-input:focus {
+    border-color: #0056b3; /* Màu viền khi focus */
+    outline: none; /* Loại bỏ outline mặc định khi focus */
+}

@@ -1,0 +1,61 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+}
+
+.card {
+    border: none;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.input-group {
+    width: 120px;
+}
+
+/* Styles for the custom input group */
+.custom-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.custom-prepend, .custom-append {
+    display: flex;
+}
+
+.custom-button {
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.custom-input {
+    text-align: center;
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px;
+}
+
+.custom-input:focus {
+    box-shadow: none;
+    border-color: #0056b3;
+}

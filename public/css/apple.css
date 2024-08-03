@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.hero-header {
+    background-color: black;
+    padding: 20px;
+}
+.hero-header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin-left: 20px; 
+    font-size: 15px;/* Khoảng cách từ logo đến cạnh trái */
+}
+
+.logo ion-icon{
+    font-size: 2em; /* Kích thước của biểu tượng ion-icon */
+    vertical-align: middle;
+}
+
+.hero {
+    background-image: url('imgapple/hero_3_apple_event_may__b01plfpy6uwi_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0070c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005aa7;
+}
+
+.features {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 0 0 calc(33.333% - 20px);
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.feature h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.testimonials {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial cite {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.news {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.news h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.article-thumbnail {
+    flex: 0 0 30%;
+}
+
+.article-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article-content {
+    flex: 0 0 70%;
+    padding-left: 20px;
+}
+
+.article-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #141414;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: white;
+}
+
+
+footer p {
+    font-size: 16px;
+}
+
+.main-footer {
+    background-color: black;
+    padding: 20px;
+     /* Điều chỉnh khoảng cách từ footer lên trên */
+}
+
+.main-footer .container {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-links a ion-icon {
+    font-size: 24px;
+}
+

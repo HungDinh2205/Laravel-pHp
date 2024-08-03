@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    /* Set default text color to dark gray */
+    font-family: Arial, sans-serif;
+    /* Use a common font for better compatibility */
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #000000;
+    /* Màu nền cho thanh điều hướng */
+}
+
+.navbar-nav {
+    list-style: none;
+    /* Loại bỏ dấu chấm tròn mặc định của danh sách */
+    margin: 0;
+    /* Xóa các margin mặc định */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+    /* Khoảng cách giữa các mục */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    /* Màu văn bản trắng */
+    transition: color 0.3s;
+    /* Hiệu ứng chuyển đổi màu khi hover */
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+    /* Màu văn bản trắng khi hover */
+}
+.container-fluid {
+    /* Thêm các thuộc tính CSS của bạn tại đây */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 170px; /* Đẩy về bên trái */
+    margin: 0 auto;
+    display: block;
+}
+
+.card {
+    /* Thêm các thuộc tính CSS cho thẻ card tại đây */
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    /* Thêm các thuộc tính CSS cho form group tại đây */
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+button {
+    background-color: #000000; /* Nền đen */
+    color: #ffffff; /* Chữ trắng */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer
+    }
+
